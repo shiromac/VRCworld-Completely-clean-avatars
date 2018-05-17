@@ -621,7 +621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4888031126003522}
   m_Layer: 0
-  m_Name: Infomation
+  m_Name: AvaterInfomationSub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
