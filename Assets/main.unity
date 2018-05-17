@@ -134,10 +134,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2115515334}
-  - {fileID: 1042770902}
+  - {fileID: 158699498}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &158699498 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722,
+    type: 2}
+  m_PrefabInternal: {fileID: 260978478}
 --- !u!1 &180857290
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +208,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &260978478
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 55664566}
+    m_Modifications:
+    - target: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079816300058454, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f8e34fc3ebb5b2a44bd86745ee99f722, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &947707989
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,11 +278,6 @@ Transform:
   m_Father: {fileID: 1863928187}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1042770902 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd,
-    type: 2}
-  m_PrefabInternal: {fileID: 2005544569}
 --- !u!1 &1078983794
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,7 +438,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: layerCollisionArr.Array.size
@@ -4561,6 +4603,10 @@ Prefab:
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.data[2]
       value: 
+      objectReference: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
+      propertyPath: DynamicMaterials.Array.data[3]
+      value: 
       objectReference: {fileID: 2100000, guid: 1bf44893db192354fb4f52784a66bf24, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
@@ -4679,76 +4725,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2005544569
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 55664566}
-    m_Modifications:
-    - target: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892223824034114, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114494915433081694, guid: dfce6f4945e7bee439d6bdb4aad002bd,
-        type: 2}
-      propertyPath: m_Text
-      value: "Copyright <YEAR> <COPYRIGHT HOLDER>\r\n\r\nPermission is hereby granted,
-        free of charge, to any person obtaining a copy of this software and associated
-        documentation files (the \"Software\"), to deal in the Software without restriction,
-        including without limitation the rights to use, copy, modify, merge, publish,
-        distribute, sublicense, and/or sell copies of the Software, and to permit
-        persons to whom the Software is furnished to do so, subject to the following
-        conditions:\r\n\r\nThe above copyright notice and this permission notice shall
-        be included in all copies or substantial portions of the Software.\r\n\r\nTHE
-        SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-        INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR
-        A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-        IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-      objectReference: {fileID: 0}
-    - target: {fileID: 114494915433081694, guid: dfce6f4945e7bee439d6bdb4aad002bd,
-        type: 2}
-      propertyPath: m_FontData.m_FontSize
-      value: 42
-      objectReference: {fileID: 0}
-    - target: {fileID: 114494915433081694, guid: dfce6f4945e7bee439d6bdb4aad002bd,
-        type: 2}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: dfce6f4945e7bee439d6bdb4aad002bd, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &2115515333
 GameObject:
   m_ObjectHideFlags: 0
